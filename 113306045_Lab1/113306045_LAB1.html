@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<table border = "1">
+		<tr>
+			<th colspan = "3">
+				<Strong>About -- 113306045</Strong>
+			</th>
+		</tr>
+		<tr>
+			<th rowspan = "3">
+				<img src = "myphoto.jpg" width = "100" height = "130" alt = "my photo"><br>
+				personal photo
+			</th>
+			<td colspan="2">
+				<label>Name:
+					<input name = "name" type = "text" size = "25" maxlength="30"
+					value="霍宣彤">
+					</label>
+					<form>Gender:
+						<input type="radio" name="gender" value="male"> Male
+						<input type="radio" name="gender" value="female" checked> Female
+						<input type="radio" name="gender" value="other"> Other
+					</form>
+			</td>
+		</tr>
+		<tr>
+			<td>County:
+				<select name="county">
+					<option value="Taipei" selected>Taipei</option>
+					<option value="Tainan">Tainan</option>
+					<option value="Taichung">Taichung</option>
+					<option value="Taoyuan">Taoyuan</option>
+				</select>
+			</td>
+			<td>
+				<label for="birthday">Birthday:</label>
+				<input type="date" id="birthday" name="birthday"
+				value="2005-09-09"
+				min="1900-01-01" Max="2024-11-09">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">E-mail:
+				<input type="email" name="email" placeholder="113306045@nccu.edu.tw" required>
+			</td>
+		</tr>
+		<tr>
+			<td>Hobby</td>
+			<td colspan="2">
+				<input type="checkbox" name="hobby" value="swimming">Swimming
+				<input type="checkbox" name="hobby" value="volleyball">Volleyball
+				<input type="checkbox" name="hobby" value="movie" checked>Movie
+				<input type="checkbox" name="hobby" value="game" checked>Game
+				<input type="checkbox" name="hobby" value="sleep" checked>Sleep
+			</td>
+		</tr>
+		<tr>
+			<td>Skill</td>
+			<td colspan="2">
+				<input type="checkbox" name="skill" value="java" checked>Java
+				<input type="checkbox" name="skill" value="html" checked>HTML
+				<input type="checkbox" name="skill" value="python">Python
+				<input type="checkbox" name="skill" value="microsoft office">Microsoft Office
+				<input type="checkbox" name="skill" value="premiere">Premiere
+			</td>
+		</tr>
+		<tr>
+			<td>Say Something</td>
+			<td colspan="2">
+				<textarea name="message" placeholder="Say something here." rows="1" cols="50"></textarea>
+
+
+
+		
+
+
+</body>
+</html>
